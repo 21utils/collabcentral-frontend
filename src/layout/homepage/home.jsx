@@ -95,6 +95,24 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <section className="flex flex-col items-center justify-center gap-8 py-8">
+        <h3 className="text-3xl font-semibold">How It Works</h3>
+        <div className="grid grid-cols-3 gap-16">
+          <div className="bg-brown text-[#fff] px-8 py-24 flex flex-col justify-center gap-3 font-semibold items-center rounded-3xl shadow-md">
+            <img src="/homePage/worksIcon1.svg" alt="" />
+            <p>Create an account</p>
+          </div>
+          <div className="bg-[#fff] px-8 py-24 flex flex-col justify-center items-center gap-3 font-semibold rounded-3xl shadow-md">
+            <img src="/homePage/worksIcon1.svg" alt="" />
+            <p>Create/Join Project</p>
+          </div>
+          <div className="bg-[#fff] px-8 py-24 flex flex-col justify-center items-center gap-3 font-semibold rounded-3xl shadow-md">
+            <img src="/homePage/worksIcon1.svg" alt="" />
+            <p>Collaborate and Succed</p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
